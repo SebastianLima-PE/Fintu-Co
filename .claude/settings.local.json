@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"C:\\\\Users\\\\PERSONAL\\\\Desktop\\\\CreditSmart-PE\\\\creditsmart-frontend\\\\src\\\\assets\\\\img\")",
+      "Bash(dir \"C:\\\\Users\\\\PERSONAL\\\\Desktop\\\\CreditSmart-PE\\\\creditsmart-frontend\\\\src\\\\assets\\\\images\")",
+      "Bash(dir \"C:\\\\Users\\\\PERSONAL\\\\Desktop\\\\CreditSmart-PE\\\\creditsmart-frontend\\\\src\\\\assets\" /s /b)",
+      "Bash(dir \"C:\\\\Users\\\\PERSONAL\\\\Desktop\\\\CreditSmart-PE\\\\creditsmart-frontend\\\\src\\\\assets\\\\icons\" /b)",
+      "Bash(dir \"C:\\\\Users\\\\PERSONAL\\\\Desktop\\\\CreditSmart-PE\\\\creditsmart-frontend\\\\public\" /b)",
+      "Bash(dir \"C:\\\\Users\\\\PERSONAL\\\\Desktop\\\\CreditSmart-PE\\\\creditsmart-frontend\" /s /b)",
+      "Bash(findstr /i \".png .jpg .jpeg .webp .svg\")",
+      "Bash(findstr /v \"node_modules\")",
+      "Bash(powershell -Command \"Get-ChildItem -Path 'C:\\\\Users\\\\PERSONAL\\\\Desktop\\\\CreditSmart-PE\\\\creditsmart-frontend\\\\src' -Recurse -Include '*.png','*.jpg','*.jpeg','*.webp','*.gif' | Select-Object FullName\")",
+      "Bash(powershell -Command \"Get-ChildItem 'C:\\\\Users\\\\PERSONAL\\\\Desktop\\\\CreditSmart-PE\\\\creditsmart-frontend\\\\src\\\\assets\\\\images\\\\' | Select-Object Name, Length\")",
+      "Bash(powershell -Command \"Get-ChildItem 'C:\\\\Users\\\\PERSONAL\\\\Desktop\\\\CreditSmart-PE\\\\creditsmart-frontend\\\\src\\\\assets\\\\images\\\\' | Select-Object Name\")",
+      "Bash(findstr /n /i \"creditsmart\\\\|credit smart\\\\|credit_smart\\\\|title\\\\|logo\\\\|brand\" \"C:\\\\Users\\\\PERSONAL\\\\Desktop\\\\CreditSmart-PE\\\\creditsmart-frontend\\\\index.html\")",
+      "Bash(findstr /n /i \"creditsmart\\\\|credit\" \"C:\\\\Users\\\\PERSONAL\\\\Desktop\\\\CreditSmart-PE\\\\creditsmart-frontend\\\\src\\\\pages\\\\Login.jsx\")",
+      "Bash(findstr /n /i \"creditsmart\\\\|credit\" \"C:\\\\Users\\\\PERSONAL\\\\Desktop\\\\CreditSmart-PE\\\\creditsmart-frontend\\\\src\\\\pages\\\\Register.jsx\")",
+      "Bash(findstr /n /i \"creditsmart\\\\|credit\" \"C:\\\\Users\\\\PERSONAL\\\\Desktop\\\\CreditSmart-PE\\\\creditsmart-frontend\\\\src\\\\pages\\\\Landing.jsx\")",
+      "Bash(npm install *)",
+      "Bash(npx vite *)",
+      "Bash(grep -E '\\\\.\\(jsx|js|css|html\\)$')",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "Bash(ffmpeg -version)",
+      "Bash(where ffmpeg *)",
+      "Bash(python -c \"import cv2; print\\('opencv ok'\\)\")",
+      "Bash(python3 -c \"import cv2; print\\('opencv ok'\\)\")",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\PERSONAL\\\\Downloads\\\\\" | Where-Object { $_.Name -match \"Grabaci|2026-04-24|002133\" } | Select-Object FullName, Length)",
+      "Bash(npm uninstall *)"
+    ]
+  }
+}
